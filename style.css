@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select:none;
 }
 
 .cabecalho {
@@ -62,7 +63,7 @@
 }
 
 .corpo {
-    padding: 1em;
+    padding: .8em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -72,7 +73,7 @@
 }
 
 section {
-    padding: 2em;
+/*     padding: 2em; */
 }
 
 .corpo h2 {
