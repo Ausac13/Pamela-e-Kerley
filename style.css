@@ -1,0 +1,212 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cabecalho {
+    padding: 2em;
+    background-color: #8DA284;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cabecalho nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    border-radius: 8px;
+}
+
+.cabecalho nav p {
+    padding: 1em;
+}
+
+.ini{
+    text-decoration: underline;
+    color: aliceblue;
+}
+.serv{
+    text-decoration: underline;
+    color: aliceblue;
+}
+.cont{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+
+.rodape {
+    padding: 2em;
+    background-color: #8DA284;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.rodape div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rodape div h4 {
+    padding: 1em;
+}
+
+.corpo {
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f4efde;
+}
+
+section {
+    padding: 3em;
+}
+
+.corpo h2 {
+    padding: 2em;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1em;
+    background-color: #8DA284;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    margin: 2em 25% 2em 25%;
+}
+
+.descricao p {
+    max-width: 300px;
+}
+
+.descricao div {
+    padding: 1em;
+
+}
+
+.descricao div h3 {
+    font-size: 34px;
+    max-width: 100px;
+    margin-right: 100px;
+}
+
+.descricao img {
+    max-width: 50%;
+}
+
+.medicamentos {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+
+}
+
+.medicamentos h1 {
+    flex: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.medicamentos div {
+
+    background-color: rgb(212, 212, 212);
+    padding: 1em;
+    margin: 2em;
+}
+
+.medicamentos img {
+    max-width: 200px;
+}
+
+
+
+
+
+ul {
+    list-style: none;
+    padding: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transform: 5s;
+}
+
+li:hover {
+    background-color: #ffbb33;
+}
+
+li {
+    background-color: #8DA284;
+    border-radius: 10px;
+    padding: .7em;
+    margin: 1em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    max-width: 100px;
+    padding: .9em;
+}
+.contatos{
+    background-color: #f4efde;
+}
+.contatos p {
+    text-align: center;
+    padding: .9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f4efde;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.localiza img {
+    max-width: 280px;
+
+}
+.saiba{
+    text-decoration:underline;
+    padding: 2em;
+    transition: .5s;
+}
+.saiba:hover{
+    transform: scale(1.2);
+    color: #ffbb33;
+}
