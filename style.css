@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    user-select:none;
 }
 
 .cabecalho {
@@ -63,7 +62,7 @@
 }
 
 .corpo {
-    padding: .8em;
+    padding: 2em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -73,7 +72,7 @@
 }
 
 section {
-/*     padding: 2em; */
+    padding: 3em;
 }
 
 .corpo h2 {
@@ -106,7 +105,8 @@ section {
 .descricao div h3 {
     font-size: 34px;
     max-width: 100px;
-    margin-right: 100px;
+    padding-right: 2em;
+    /* margin-right: 100px; */
 }
 
 .descricao img {
@@ -127,18 +127,18 @@ section {
 .medicamentos h1 {
     flex: 100%;
     text-align: center;
-   padding-top: 10px;
+    padding: 10px;
 }
 
 .medicamentos div {
 
     background-color: rgb(212, 212, 212);
     padding: 1em;
-    margin: .9em;
+    margin: 2em;
 }
 
 .medicamentos img {
-    max-width: 50%;
+    max-width: 200px;
 }
 
 
@@ -210,4 +210,44 @@ a {
 .saiba:hover{
     transform: scale(1.2);
     color: #ffbb33;
+}
+@media (max-width:768px) {
+    .medicamentos img{
+        max-width: 80%;
+    }
+    .medicamentos {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    
+    .medicamentos h1 {
+        flex: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .medicamentos div {
+    
+        background-color: rgb(212, 212, 212);
+        /* padding: 1em;
+        margin: 2em; */
+    }
+    
+    
+    .corpo {
+        padding: 0px;
+        
+    }
+    .descricao div h3 {
+        font-size: 30px;
+        /* max-width: 100px; */
+        padding-right: .8em;
+        /* margin-right: 100px; */
+    }
+    
 }
