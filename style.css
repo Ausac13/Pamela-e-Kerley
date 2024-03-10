@@ -62,7 +62,7 @@
 }
 
 .corpo {
-    padding: 2em;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -72,7 +72,7 @@
 }
 
 section {
-    padding: 3em;
+    padding: 2em;
 }
 
 .corpo h2 {
@@ -133,7 +133,7 @@ section {
 
     background-color: rgb(212, 212, 212);
     padding: 1em;
-    margin: 2em;
+/*     margin: 2em; */
 }
 
 .medicamentos img {
